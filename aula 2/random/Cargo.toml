@@ -1,0 +1,13 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+authors = ["Otavio"]
+
+[dependencies]
+rand = "0.3"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
