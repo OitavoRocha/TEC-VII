@@ -1,3 +1,4 @@
+// Na passagem de um Vec<> não é possível passar seus valores inteiros como mutáveis, pois o próprio Vec foi declarado mutável, na função swap
 use rand::Rng;
 
 fn gera_vet(size: usize) -> Vec<i32> {
